@@ -1,0 +1,128 @@
+.landing {
+  padding-left: 20px;
+  display: flex;
+}
+
+.landing-texts {
+  align-self: center;
+  position: relative;
+}
+
+.landing-images {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: 5vw;
+}
+
+.landing-images-sub {
+  display: grid;
+  grid-template-rows: auto auto;
+  max-width: fit-content;
+  margin: 0px 3vw;
+}
+
+.landing-content {
+  z-index: 3;
+  width: 470px;
+  padding-left: 32px;
+}
+
+.landing-topic {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 41.4px;
+}
+
+.landing-details {
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 12px;
+  line-height: 27px;
+}
+
+.dots {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+.dotBox {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+}
+
+.circle {
+  height: 7px;
+  margin: 1.7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: rgba(129, 129, 139, 0.2);
+}
+
+.deco {
+  position: absolute;
+  top: 10px;
+}
+
+.image-containers {
+  width: 160px;
+  height: min-content;
+}
+
+.btns {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  margin-top: 10px;
+}
+
+.bg0 {
+  height: 280px;
+  border-radius: 150px;
+  margin-top: 30px;
+}
+.bg1 {
+  height: 130px;
+  border-radius: 50% 50% 0px 50%;
+}
+
+.bg3 {
+  height: 130px;
+  border-radius: 50% 0% 50% 50%;
+}
+
+.bg4 {
+  height: 280px;
+  border-radius: 200px;
+}
+
+.b-text{
+    font-family: 'Poppins-Light', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+
+.b-logos{
+    width: 90vw;
+    display: grid;
+    position: relative;
+    height: 40px;
+    margin: 0px auto;
+}
+
+.s-blur{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 0px;
+    background: linear-gradient(90deg, #0D0D11 20%, rgba(0, 0, 0, 0) 100%);
+}
+.e-blur{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    right: 0px;
+    background: linear-gradient(270deg, #0D0D11 20%, rgba(0, 0, 0, 0) 100%);
+}
