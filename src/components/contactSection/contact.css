@@ -1,5 +1,5 @@
 .contact-section {
-  margin: 15vh 0px;
+  margin: 20vh 0px;
   display: grid;
   grid-template-columns: auto auto;
   background-color: rgba(129, 129, 139, 0.1);
@@ -14,11 +14,11 @@
   text-align: center;
 }
 
-.contact-buttons{
-    display: grid;
-    place-items: center;
-    grid-template-columns: auto auto;
-    column-gap: 35px;
+.contact-buttons {
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto auto;
+  column-gap: 35px;
 }
 
 .contact-topic {

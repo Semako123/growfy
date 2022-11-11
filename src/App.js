@@ -7,6 +7,7 @@ import Ratings from "./components/RatingSection/Ratings";
 import Testimonial from "./components/testiminonialSection/Testimonial";
 import Blog from "./components/blogSection/Blog";
 import Contact from "./components/contactSection/Contact";
+import Footer from "./components/footer/Footer";
 import "./App.css";
 import "./components/general.css";
 
@@ -21,6 +22,7 @@ function App() {
       <Testimonial />
       <Blog />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,54 @@
+.footer-section {
+  margin: 20vh 0px 0vh;
+  display: grid;
+  grid-template-columns: 30% auto auto auto;
+  column-gap: 5vw;
+  border-bottom: 2px solid rgba(129, 129, 139, 0.2);
+  padding-bottom: 45px;
+}
+
+.footer-bar-1 {
+  width: 80%;
+}
+
+.footer-topic {
+  font-size: 17px;
+  font-size: 100;
+}
+
+.footer-sub-topic {
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 13px;
+  color: #9c9c9c;
+}
+
+.newsletter-form {
+  display: flex;
+}
+
+.newsletter-field {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 40px;
+  padding-left: 30px;
+  margin-right: 4px;
+  outline: none;
+  border: 1px solid rgba(129, 129, 139, 0.3);
+  color: #9c9c9c;
+  font-family: "Poppins-Light";
+}
+
+.footer-remarks {
+  margin-bottom: 10vh;
+  padding: 3vh;
+  text-align: center;
+}
+
+.footer-dev-name {
+  color: rgb(255, 255, 255);
+}
+
+.webflow {
+  display: inline-block;
+  transform: translateY(5px);
+  width: 71px;
+}
