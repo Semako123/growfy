@@ -60,6 +60,18 @@ const Testimonial = () => {
           Quidem voluptatibus adipisci necessitatibus, aspernatur illum quia
           eius architecto quo possimus!
         </TestimonialCard>
+        <TestimonialCard
+          quote="The support is awesome"
+          name="Alice Smith"
+          companyName="Company name"
+          image={profile2}
+          stars={5}
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque
+          voluptas, asperiores saepe hic nemo itaque dolor at ex voluptate?
+          Quidem voluptatibus adipisci necessitatibus, aspernatur illum quia
+          eius architecto quo possimus!
+        </TestimonialCard>
       </div>
     </div>
   );

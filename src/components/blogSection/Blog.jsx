@@ -7,7 +7,6 @@ import blogImage1 from "../assets/images/blog1.jpg";
 import blogImage2 from "../assets/images/blog2.jpg";
 import blogImage3 from "../assets/images/blog3.jpg";
 
-
 const Blog = () => {
   return (
     <div className="blog-section">
@@ -47,6 +46,15 @@ const Blog = () => {
           image={blogImage3}
           topic="How to Grab Your Reader’s Attention"
           date="2020-04-01"
+        >
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+          sint voluptas asperiores aliquam cupiditate vero, blanditiis est
+          error.
+        </BlogCard>
+        <BlogCard
+          image={blogImage1}
+          topic="How to Use Social Proof in Marketing"
+          date="2022-09-04"
         >
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
           sint voluptas asperiores aliquam cupiditate vero, blanditiis est
