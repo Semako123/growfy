@@ -6,6 +6,7 @@ import Perks from "./components/perkSection/Perks";
 import Ratings from "./components/RatingSection/Ratings";
 import Testimonial from "./components/testiminonialSection/Testimonial";
 import Blog from "./components/blogSection/Blog";
+import Contact from "./components/contactSection/Contact";
 import "./App.css";
 import "./components/general.css";
 
@@ -19,6 +20,7 @@ function App() {
       <Ratings />
       <Testimonial />
       <Blog />
+      <Contact />
     </div>
   );
 }

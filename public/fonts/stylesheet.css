@@ -32,10 +32,10 @@
     font-weight: 600;
     font-style: normal;
     font-display: swap;
-}
+} */
 
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'Poppins-Regular';
     src: url('Poppins-Regular.eot');
     src: url('Poppins-Regular.eot?#iefix') format('embedded-opentype'),
         url('Poppins-Regular.woff2') format('woff2'),
@@ -44,7 +44,7 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-} */
+}
 
 @font-face {
     font-family: 'Poppins';

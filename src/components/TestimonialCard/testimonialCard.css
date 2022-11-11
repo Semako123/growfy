@@ -12,6 +12,7 @@ grid-template-columns:100px auto;
 }
 
 .testimonial-card-quote {
+  font-family: 'Poppins-Regular', sans-serif;
   font-size: 25px;
   line-height: 35px;
   font-weight: 100;

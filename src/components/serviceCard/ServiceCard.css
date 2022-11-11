@@ -24,6 +24,8 @@
 }
 
 .service-card-topic{
+  font-family: 'Poppins-Regular',sans-serif;
+  font-weight: 500;
     font-size: 15px;
     margin: 0px;
     margin-bottom: 10px;

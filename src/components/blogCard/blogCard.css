@@ -30,7 +30,8 @@
 }
 
 .blog-card-topic {
-  font-weight: 100;
+  font-family: 'Poppins-Regular';
+  font-weight: 200;
 }
 
 .blog-card-date{

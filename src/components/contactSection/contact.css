@@ -1,3 +1,36 @@
-.contact-section{
-    
+.contact-section {
+  margin: 15vh 0px;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgba(129, 129, 139, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  place-items: center;
+}
+.contact-texts {
+  display: grid;
+  place-items: center;
+  width: 400px;
+  text-align: center;
+}
+
+.contact-buttons{
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto;
+    column-gap: 35px;
+}
+
+.contact-topic {
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.contact-para {
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 13px;
+  color: #9c9c9c;
 }

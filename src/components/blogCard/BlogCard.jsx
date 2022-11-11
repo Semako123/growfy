@@ -9,10 +9,14 @@ const BlogCard = ({ topic, children, image, date }) => {
     <div className="blog-card">
       <img src={image} alt="blog1" className="blog-card-image" />
       <div className="blog-card-details">
-        <p className="blog-card-date">{`${dateObject.toLocaleString("default", { month: "long" })} ${dateObject.getDate()}, ${dateObject.getFullYear()}`}</p>
+        <p className="blog-card-date">{`${dateObject.toLocaleString("default", {
+          month: "long",
+        })} ${dateObject.getDate()}, ${dateObject.getFullYear()}`}</p>
         <h4 className="blog-card-topic">{topic}</h4>
         <p className="blog-card-para">{children}</p>
-        <a href="#">Read more</a>
+        <a href="https://google.com" rel="noreferrer" target="_blank">
+          Read more
+        </a>
       </div>
     </div>
   );
