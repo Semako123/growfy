@@ -1,12 +1,12 @@
 import React from "react";
-import "./PerkSection.css";
+import "./perks.css";
 import SectionBadge from "../sectionBadge/SectionBadge";
 import bullet from "../assets/images/bullet.png";
 import bg0 from "../assets/images/bg5.jpg";
 import bg1 from "../assets/images/bg6.jpg";
 import Deco from "../deco/Deco";
 
-const PerkSection = () => {
+const Perks = () => {
   return (
     <div className="perk-section">
       <div className="perk-section-image">
@@ -50,4 +50,4 @@ const PerkSection = () => {
   );
 };
 
-export default PerkSection;
+export default Perks;

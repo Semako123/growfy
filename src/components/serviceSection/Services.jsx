@@ -1,6 +1,6 @@
 import React from "react";
 import ServiceCard from "../serviceCard/ServiceCard";
-import "./serviceSection.css";
+import "./services.css";
 import logo0 from "../assets/images/cLogo.png";
 import logo1 from "../assets/images/cLogo1.png";
 import logo2 from "../assets/images/cLogo2.png";
@@ -8,7 +8,7 @@ import logo3 from "../assets/images/cLogo3.png";
 import SectionBadge from "../sectionBadge/SectionBadge";
 import Button from "../button/button";
 
-const ServiceSection = () => {
+const Services = () => {
   return (
     <div className="service-section">
       <div className="service-texts-sec">
@@ -48,4 +48,4 @@ const ServiceSection = () => {
   );
 };
 
-export default ServiceSection;
+export default Services;
