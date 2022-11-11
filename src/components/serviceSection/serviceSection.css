@@ -4,7 +4,7 @@
     grid-template-columns: 50% 50%;
 }
 
-.service-cards-secs{
+.service-cards-sec{
     display: grid;
     grid-template-columns: 50% 50%
 }
@@ -15,4 +15,9 @@
 
 .service-cards-sec1{
     padding-bottom: 20%;
+}
+
+.service-texts-sec{
+    display: flex;
+    flex-direction: row;
 }

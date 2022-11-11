@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/navbar";
 import Landing from "./components/landing/landing";
 import ServiceSection from "./components/serviceSection/ServiceSection";
 import "./App.css";
+import "./components/general.css"
 
 function App() {
   return (

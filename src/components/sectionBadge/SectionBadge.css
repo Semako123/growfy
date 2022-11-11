@@ -1,0 +1,11 @@
+.section-badge{
+    font-family: 'Poppins-Light', sans-serif;
+    letter-spacing: 1.3px;
+    font-size: 10px;
+    color: #9C9C9C;
+    padding: 6px 15px;
+    border: 1px rgba(129, 129, 139, 0.2) solid;
+    width: min-content;
+    height: min-content;
+    border-radius: 12px;
+}

@@ -19,10 +19,10 @@ const Landing = () => {
         <div className="landing-texts">
           <Deco />
           <div className="landing-content">
-            <h1 className="landing-topic">
+            <h1 className="topic">
               Marketing solution that grow your business.
             </h1>
-            <p className="landing-details">
+            <p className="details">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Exercitationem in dolores doloremque laborum id facere nostrum,
               vel, expedita quas voluptatum natus aut eligendi atque illo,
