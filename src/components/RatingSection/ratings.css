@@ -1,0 +1,23 @@
+.ratings-section{
+    margin-top: 13vh;
+    margin-bottom: 8vh;
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+}
+
+.rating-card-grid{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.rating-image-div{
+    display: grid;
+    place-items: center;
+}
+
+.rating-image{
+    display: inline-block;
+    width: 500px;
+    margin-left: 3vw;
+    border-radius: 0px 340px 275px 275px;
+}

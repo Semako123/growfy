@@ -3,6 +3,8 @@ import Navbar from "./components/navbar/navbar";
 import Landing from "./components/landingSection/landing";
 import Services from "./components/serviceSection/Services";
 import Perks from "./components/perkSection/Perks";
+import Ratings from "./components/RatingSection/Ratings";
+import Testimonial from "./components/testiminonialSection/Testimonial";
 import "./App.css";
 import "./components/general.css";
 
@@ -13,6 +15,8 @@ function App() {
       <Landing />
       <Services />
       <Perks />
+      <Ratings />
+      <Testimonial/>
     </div>
   );
 }

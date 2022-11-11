@@ -1,0 +1,14 @@
+.testimonial-section {
+  margin-bottom: 8vh;
+}
+.testimonial-para {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.testimonial-para-button {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
