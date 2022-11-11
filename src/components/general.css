@@ -2,10 +2,13 @@
   font-size: 40px;
   font-weight: 400;
   line-height: 41.4px;
+  width: 470px;
 }
 
 .details {
   font-family: "Poppins-Light", sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 27px;
+  width: 470px;
+  color: #9c9c9c;
 }

@@ -25,7 +25,6 @@
 
 .landing-content {
   z-index: 3;
-  width: 470px;
   padding-left: 32px;
 }
 
@@ -66,7 +65,7 @@
   text-align: center;
   line-height: 20px;
   letter-spacing: 1px;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 .b-logos {
@@ -96,4 +95,9 @@
 
 .logob {
   width: 125px;
+}
+
+.deco1 {
+  position: absolute;
+  top: 20px;
 }

@@ -13,7 +13,7 @@
   margin-left: auto;
   font-weight: 100;
 }
-li {
+.navCon li {
   font-family: "Poppins-Light", sans-serif;
   line-height: 25.6px;
   font-size: 13px;
@@ -25,7 +25,7 @@ li {
   transition: all 0.4s;
 }
 
-li:hover{
+.navCon li:hover{
   background-color: rgba(129, 129, 139, 0.135);
   border-radius: 20px;
 }

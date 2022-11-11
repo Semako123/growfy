@@ -6,14 +6,21 @@ import logo1 from "../assets/images/cLogo1.png";
 import logo2 from "../assets/images/cLogo2.png";
 import logo3 from "../assets/images/cLogo3.png";
 import SectionBadge from "../sectionBadge/SectionBadge";
+import Button from "../button/button";
 
 const ServiceSection = () => {
   return (
     <div className="service-section">
       <div className="service-texts-sec">
         <SectionBadge>SERVICES</SectionBadge>
-        <h1></h1>
-        <p></p>
+        <h1 className="topic">Services we offer</h1>
+        <p className="details">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil totam,
+          accusamus placeat adipisci impedit architecto voluptatibus officia
+          ipsa perspiciatis magnam nam ratione odit molestias maiores
+          consectetur dolore magni est blanditiis!
+        </p>
+        <Button type="primary">All services</Button>
       </div>
       <div className="service-cards-sec">
         <div className="service-cards-sec1">

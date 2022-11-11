@@ -6,10 +6,10 @@ import bg0 from "../assets/images/bg0.jpg";
 import bg1 from "../assets/images/bg1.jpg";
 import bg3 from "../assets/images/bg3.jpg";
 import bg4 from "../assets/images/bg4.jpg";
-import logob0 from "../assets/images/logoB3.png"
-import logob1 from "../assets/images/logoB2.png"
-import logob2 from "../assets/images/logoB1.png"
-import logob3  from "../assets/images/logoB.png";
+import logob0 from "../assets/images/logoB3.png";
+import logob1 from "../assets/images/logoB2.png";
+import logob2 from "../assets/images/logoB1.png";
+import logob3 from "../assets/images/logoB.png";
 import logob4 from "../assets/images/logoB4.png";
 
 const Landing = () => {
@@ -17,7 +17,9 @@ const Landing = () => {
     <div>
       <div className="landing">
         <div className="landing-texts">
-          <Deco />
+          <div className="deco1">
+            <Deco />
+          </div>
           <div className="landing-content">
             <h1 className="topic">
               Marketing solution that grow your business.

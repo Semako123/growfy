@@ -1,0 +1,50 @@
+.perk-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 8vh;
+}
+
+.perks-list {
+  list-style: none;
+  padding: 0px;
+}
+
+.perks-list li {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+  font-family: "Poppins-Light", sans-serif;
+  color: #9c9c9c;
+}
+
+.perks-list img {
+  margin-right: 10px;
+}
+
+.sec3-image0 {
+  position: relative;
+  width: 350px;
+  border-radius: 250px 0px 175px 175px;
+  z-index: 2;
+}
+
+.perks-text-section {
+  margin: auto;
+}
+
+.perk-section-image {
+  position: relative;
+  display: flex;
+}
+
+.deco2 {
+  position: absolute;
+  bottom: 12px;
+  left: 5px;
+}
+
+.sec3-image1{
+    height: 175px;
+    align-self: flex-end;
+    border-radius: 200px 200px 200px 0px;
+}

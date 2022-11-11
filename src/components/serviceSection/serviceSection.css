@@ -1,23 +1,24 @@
-.service-section{
-    margin: 20vh 0px;
-    display: grid;
-    grid-template-columns: 50% 50%;
+.service-section {
+  margin-top: 8vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
-.service-cards-sec{
-    display: grid;
-    grid-template-columns: 50% 50%
+.service-cards-sec {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
-.service-cards-sec1{
-    padding-top: 20%;
+.service-cards-sec1 {
+  padding-top: 20%;
 }
 
-.service-cards-sec1{
-    padding-bottom: 20%;
+.service-cards-sec1 {
+  padding-bottom: 20%;
 }
 
-.service-texts-sec{
-    display: flex;
-    flex-direction: row;
+.service-texts-sec {
+  display: flex;
+  flex-direction: column;
+  margin-top: 23%;
 }
