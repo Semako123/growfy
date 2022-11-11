@@ -1,0 +1,22 @@
+.dots {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+.dotBox {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+}
+
+.circle {
+  height: 7px;
+  margin: 1.7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: rgba(129, 129, 139, 0.2);
+}
+
+.deco {
+  position: absolute;
+  top: 10px;
+}

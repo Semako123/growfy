@@ -1,0 +1,30 @@
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 215px;
+  background-color: rgba(129, 129, 139, 0.1);
+  border-radius: 30px;
+  padding: 40px 0px 40px 20px;
+  margin: 20px 0px;
+}
+
+.service-card-logo {
+  width: 60px;
+}
+
+.service-card-text{
+    font-family: 'Poppins-Light', sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 100;
+    color: #81818B;
+    width: 180px;
+    margin: 0px;
+}
+
+.service-card-topic{
+    font-size: 15px;
+    margin: 0px;
+    margin-bottom: 10px;
+}

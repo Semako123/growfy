@@ -1,101 +1,23 @@
 import React from "react";
 import "./landing.css";
 import Button from "../button/button";
+import Deco from "../deco/Deco";
 import bg0 from "../assets/images/bg0.jpg";
 import bg1 from "../assets/images/bg1.jpg";
 import bg3 from "../assets/images/bg3.jpg";
 import bg4 from "../assets/images/bg4.jpg";
+import logob0 from "../assets/images/logoB3.png"
+import logob1 from "../assets/images/logoB2.png"
+import logob2 from "../assets/images/logoB1.png"
+import logob3  from "../assets/images/logoB.png";
+import logob4 from "../assets/images/logoB4.png";
 
 const Landing = () => {
   return (
     <div>
       <div className="landing">
         <div className="landing-texts">
-          <div className="deco">
-            <div className="dotBox">
-              <div className="dots">
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-              </div>
-              <div className="dots">
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-              </div>
-              <div className="dots">
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-              </div>
-              <div className="dots">
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-              </div>
-              <div className="dots">
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-              </div>
-              <div className="dots">
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-              </div>
-              <div className="dots">
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-              </div>
-              <div className="dots">
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-              </div>
-            </div>
-          </div>
-
+          <Deco />
           <div className="landing-content">
             <h1 className="landing-topic">
               Marketing solution that grow your business.
@@ -135,11 +57,22 @@ const Landing = () => {
         <p className="b-text">TRUSTED BY STARTUPS AND LARGE ENTERPRISES</p>
       </div>
       <div className="b-logos">
-        <div className="s-blur">
-
+        <div className="s-blur"></div>
+        <div className="e-blur"></div>
+        <div>
+          <img src={logob0} className="logob" alt="luminous" />
         </div>
-        <div className="e-blur">
-
+        <div>
+          <img src={logob1} className="logob" alt="luminous" />
+        </div>
+        <div>
+          <img src={logob2} className="logob" alt="luminous" />
+        </div>
+        <div>
+          <img src={logob3} className="logob" alt="luminous" />
+        </div>
+        <div>
+          <img src={logob4} className="logob" alt="luminous" />
         </div>
       </div>
     </div>

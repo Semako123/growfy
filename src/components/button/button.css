@@ -9,6 +9,7 @@
   line-height: 22.4px;
   font-weight: medium;
   letter-spacing: 2px;
+  transition: all 0.2s;
   cursor: pointer;
 }
 
@@ -16,6 +17,14 @@
   background-color: #3d96f4;
 }
 
+.primary:hover{
+  background-color: #2d6fb5;
+}
+
 .secondary {
   background-color: rgba(129, 129, 139, 0.2);
+}
+
+.secondary:hover{
+  background-color: rgba(129, 129, 139, 0.135);
 }

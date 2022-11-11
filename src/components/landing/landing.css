@@ -41,29 +41,6 @@
   line-height: 27px;
 }
 
-.dots {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
-}
-
-.dotBox {
-  display: grid;
-  grid-template-rows: auto auto auto auto auto auto auto auto;
-}
-
-.circle {
-  height: 7px;
-  margin: 1.7px;
-  width: 7px;
-  border-radius: 50%;
-  background-color: rgba(129, 129, 139, 0.2);
-}
-
-.deco {
-  position: absolute;
-  top: 10px;
-}
-
 .image-containers {
   width: 160px;
   height: min-content;
@@ -95,34 +72,40 @@
   border-radius: 200px;
 }
 
-.b-text{
-    font-family: 'Poppins-Light', sans-serif;
-    font-size: 12px;
-    text-align: center;
-    line-height: 20px;
-    letter-spacing: 1px;
-    margin-top: 50px;
+.b-text {
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin-top: 30px;
 }
 
-.b-logos{
-    width: 90vw;
-    display: grid;
-    position: relative;
-    height: 40px;
-    margin: 0px auto;
+.b-logos {
+  width: 80vw;
+  display: flex;
+  position: relative;
+  height: 35px;
+  margin: 0px auto;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.s-blur{
-    position: absolute;
-    width: 100px;
-    height: 40px;
-    left: 0px;
-    background: linear-gradient(90deg, #0D0D11 20%, rgba(0, 0, 0, 0) 100%);
+.s-blur {
+  position: absolute;
+  width: 70px;
+  height: 37px;
+  left: 0px;
+  background: linear-gradient(90deg, #0d0d11 10%, rgba(0, 0, 0, 0) 100%);
 }
-.e-blur{
-    position: absolute;
-    width: 100px;
-    height: 40px;
-    right: 0px;
-    background: linear-gradient(270deg, #0D0D11 20%, rgba(0, 0, 0, 0) 100%);
+.e-blur {
+  position: absolute;
+  width: 70px;
+  height: 37px;
+  right: 0px;
+  background: linear-gradient(270deg, #0d0d11 10%, rgba(0, 0, 0, 0) 100%);
+}
+
+.logob {
+  width: 125px;
 }

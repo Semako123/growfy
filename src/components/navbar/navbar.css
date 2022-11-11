@@ -19,6 +19,13 @@ li {
   font-size: 13px;
   cursor: pointer;
   text-decoration: none;
-  margin: 0px 20px;
+  margin: 0px 10px;
   display: inline;
+  padding: 5px 10px;
+  transition: all 0.4s;
+}
+
+li:hover{
+  background-color: rgba(129, 129, 139, 0.135);
+  border-radius: 20px;
 }
