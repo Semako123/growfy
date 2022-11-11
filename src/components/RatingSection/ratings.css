@@ -2,12 +2,14 @@
     margin-top: 13vh;
     margin-bottom: 8vh;
     display: grid;
-    grid-template-columns: 30% 30% 40%;
+    grid-template-columns: 25% 25% 40%;
+    column-gap: 20px;
 }
 
 .rating-card-grid{
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-rows: 43% 43%;
+    place-items: center;
 }
 
 .rating-image-div{

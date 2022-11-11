@@ -1,0 +1,59 @@
+.testimonial-card {
+  padding: 50px 0px;
+  background-color: rgba(129, 129, 139, 0.1);
+  width: 280px;
+  border-radius: 30px;
+  padding-left: 30px;
+}
+
+.testimonial-card-header{
+display: grid;
+grid-template-columns:100px auto;
+}
+
+.testimonial-card-quote {
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 100;
+  width: 250px;
+}
+
+.testimonial-card-detail {
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 14px;
+  color: #9c9c9c;
+  width: 250px;
+}
+
+.testimonial-card-header-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial-card-header-texts p {
+  font-family: "Poppins-Light", sans-serif;
+}
+
+.testimonial-card-name {
+  font-size: 17px;
+  font-weight: 900;
+  margin-bottom: -5px;
+}
+
+.testimonial-card-company-name{
+    color: #9c9c9c;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+.testimonial-card-profile{
+    height:80px;
+    border-radius: 0px 100px 100px 100px;
+}
+
+.starIcon{
+    height: 15px;
+    margin-left: 2px;
+}
