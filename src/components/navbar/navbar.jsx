@@ -10,9 +10,11 @@ const Navbar = () => {
       <ul className="navCon">
         <li>Home</li>
         <li>About</li>
-        <li style={{ marginRight:"30px" }}>Pages</li>
+        <li style={{ marginRight: "30px" }}>Pages</li>
         <li>Services</li>
-        <li>Cart<span className="cart-badge">0</span></li>
+        <li>
+          Cart<span className="cart-badge">0</span>
+        </li>
         <Button type="primary">Get Started</Button>
       </ul>
     </div>

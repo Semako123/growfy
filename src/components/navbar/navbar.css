@@ -29,3 +29,11 @@
   background-color: rgba(129, 129, 139, 0.135);
   border-radius: 20px;
 }
+
+.cart-badge {
+  border-radius: 50%;
+  margin-left: 3px;
+  padding: 0px 8px;
+  background-color: rgba(129, 129, 139, 0.3);
+  display: inline-block;
+}
