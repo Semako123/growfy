@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./components/navbar/navbar";
-import Landing from "./components/landing/landing";
+import Landing from "./components/landingSection/landing";
 import ServiceSection from "./components/serviceSection/ServiceSection";
 import PerkSection from "./components/perkSection/PerkSection";
 import "./App.css";
