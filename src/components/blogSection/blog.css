@@ -1,0 +1,17 @@
+.blog-section{
+    margin: 15vh 0px;
+}
+.blog-para{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.blog-para-button{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+.blog-cards-section{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

@@ -1,0 +1,41 @@
+.blog-card {
+  background-color: rgba(129, 129, 139, 0.1);
+  border-radius: 30px;
+  width: 300px;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.blog-card-details {
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.blog-card-image {
+  width: 370px;
+}
+
+.blog-card-para {
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: #9c9c9c;
+}
+
+.blog-card-details a {
+  text-decoration: none;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 11px;
+  color: #3d96f4;
+}
+
+.blog-card-topic {
+  font-weight: 100;
+}
+
+.blog-card-date{
+    font-family: 'Poppins-Light', sans-serif;
+    font-size: 13px;
+    color: #9c9c9c;
+    line-height: 20px;
+}

@@ -24,8 +24,8 @@ const TestimonialCard = ({
       <h3 className="testimonial-card-quote">"{quote}" </h3>
       <p className="testimonial-card-detail">{children}</p>
       <div>
-        {starsList.map((element) => (
-          <img className="starIcon" src={star} alt="star" />
+        {starsList.map((element, index) => (
+          <img key={index} className="starIcon" src={star} alt="star" />
         ))}
       </div>
     </div>
