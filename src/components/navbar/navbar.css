@@ -5,7 +5,7 @@
   align-items: center;
 }
 .logo {
-  transform: scale(0.7);
+  width: 100px;
 }
 .navCon {
   display: flex;
