@@ -10,6 +10,7 @@ import Contact from "./components/contactSection/Contact";
 import Footer from "./components/footer/Footer";
 import "./App.css";
 import "./components/general.css";
+import "animate.css"
 
 function App() {
   return (

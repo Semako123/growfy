@@ -11,6 +11,7 @@ import logob1 from "../assets/images/logoB2.png";
 import logob2 from "../assets/images/logoB1.png";
 import logob3 from "../assets/images/logoB.png";
 import logob4 from "../assets/images/logoB4.png";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Landing = () => {
   return (
@@ -18,65 +19,109 @@ const Landing = () => {
       <div className="landing">
         <div className="landing-texts">
           <div className="deco1">
-            <Deco />
+            <AnimationOnScroll
+              animateIn="animate__fadeInDown"
+              animateOut="animate__fadeOutDown"
+            >
+              <Deco />
+            </AnimationOnScroll>
           </div>
           <div className="landing-content">
-            <h1 className="topic">
-              Marketing solution that grow your business.
-            </h1>
-            <p className="details">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Exercitationem in dolores doloremque laborum id facere nostrum,
-              vel, expedita quas voluptatum natus aut eligendi atque illo,
-              recusandae maiores blanditiis? Cumque, illum!
-            </p>
-            <div className="btns">
-              <Button type="primary">Our Services</Button>
-              <Button type="secondary">Contact Us</Button>
-            </div>
+            <AnimationOnScroll
+              animateIn="animate__rubberBand"
+              animateOut="animate__fadeOut"
+            >
+              <h1 className="topic">
+                Marketing solution that grow your business.
+              </h1>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll
+              animateIn="animate__bounceInUp"
+              animateOut="animate__bounceOutUp"
+            >
+              <p className="details">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Exercitationem in dolores doloremque laborum id facere nostrum,
+                vel, expedita quas voluptatum natus aut eligendi atque illo,
+                recusandae maiores blanditiis? Cumque, illum!
+              </p>
+              <div className="btns">
+                <Button type="primary">Our Services</Button>
+                <Button type="secondary">Contact Us</Button>
+              </div>
+            </AnimationOnScroll>
           </div>
         </div>
         <div className="landing-images">
           <div className="landing-images-sub">
             <div className="image-containers">
-              <img className="bg0" src={bg0} alt="growfy" />
+              <AnimationOnScroll
+                animateIn="animate__fadeInLeft"
+                animateOut="animate__fadeOutLeft"
+              >
+                <img className="bg0" src={bg0} alt="growfy" />
+              </AnimationOnScroll>
             </div>
             <div className="image-containers">
-              <img className="bg1" src={bg1} alt="growfy" />
+              <AnimationOnScroll
+                animateIn="animate__fadeInUp"
+                animateOut="animate__fadeOutUp"
+              >
+                <img className="bg1" src={bg1} alt="growfy" />
+              </AnimationOnScroll>
             </div>
           </div>
           <div className="landing-images-sub">
             <div className="image-containers">
-              <img className="bg3" src={bg3} alt="growfy" />
+              <AnimationOnScroll
+                animateIn="animate__fadeInRight"
+                animateOut="animate__fadeOutRight"
+              >
+                <img className="bg3" src={bg3} alt="growfy" />
+              </AnimationOnScroll>
             </div>
             <div className="image-containers">
-              <img className="bg4" src={bg4} alt="growfy" />
+              <AnimationOnScroll
+                animateIn="animate__fadeInDown"
+                animateOut="animate__fadeOutDown"
+              >
+                <img className="bg4" src={bg4} alt="growfy" />
+              </AnimationOnScroll>
             </div>
           </div>
         </div>
       </div>
       <div>
-        <p className="b-text">TRUSTED BY STARTUPS AND LARGE ENTERPRISES</p>
+        <AnimationOnScroll
+          offset={80}
+          animateIn="animate__lightSpeedInLeft"
+          animateOut="animate__lightSpeedOutRight"
+        >
+          <p className="b-text">TRUSTED BY STARTUPS AND LARGE ENTERPRISES</p>
+        </AnimationOnScroll>
       </div>
-      <div className="b-logos">
-        <div className="s-blur"></div>
-        <div className="e-blur"></div>
-        <div>
-          <img src={logob0} className="logob" alt="luminous" />
+      <AnimationOnScroll animateIn="animate__backInDown" animateOut="animate__backOutUp" offset={50}>
+        <div className="b-logos">
+          <div className="s-blur"></div>
+          <div className="e-blur"></div>
+          <div>
+            <img src={logob0} className="logob" alt="luminous" />
+          </div>
+          <div>
+            <img src={logob1} className="logob" alt="luminous" />
+          </div>
+          <div>
+            <img src={logob2} className="logob" alt="luminous" />
+          </div>
+          <div>
+            <img src={logob3} className="logob" alt="luminous" />
+          </div>
+          <div>
+            <img src={logob4} className="logob" alt="luminous" />
+          </div>
         </div>
-        <div>
-          <img src={logob1} className="logob" alt="luminous" />
-        </div>
-        <div>
-          <img src={logob2} className="logob" alt="luminous" />
-        </div>
-        <div>
-          <img src={logob3} className="logob" alt="luminous" />
-        </div>
-        <div>
-          <img src={logob4} className="logob" alt="luminous" />
-        </div>
-      </div>
+      </AnimationOnScroll>
     </div>
   );
 };
