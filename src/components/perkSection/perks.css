@@ -39,6 +39,7 @@
 
 .deco2 {
   position: absolute;
+  z-index: -1;
   bottom: 12px;
   left: 5px;
 }

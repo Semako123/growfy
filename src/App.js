@@ -1,4 +1,3 @@
-import "./App.css";
 import Navbar from "./components/navbar/navbar";
 import Landing from "./components/landingSection/landing";
 import Services from "./components/serviceSection/Services";
@@ -10,7 +9,7 @@ import Contact from "./components/contactSection/Contact";
 import Footer from "./components/footer/Footer";
 import "./App.css";
 import "./components/general.css";
-import "animate.css"
+import "animate.css/animate.css"
 
 function App() {
   return (
