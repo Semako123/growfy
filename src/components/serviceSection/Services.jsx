@@ -13,38 +13,72 @@ const Services = () => {
   return (
     <div className="service-section">
       <div className="service-texts-sec">
-        <AnimationOnScroll>
+        <AnimationOnScroll
+          animateIn="animate__fadeInLeft"
+          animateOut="animate__fadeOutLeft"
+        >
           <SectionBadge>SERVICES</SectionBadge>
+        </AnimationOnScroll>
+        <AnimationOnScroll
+          animateIn="animate__fadeInLeft"
+          animateOut="animate__fadeOutLeft"
+        >
           <h1 className="topic">Services we offer</h1>
         </AnimationOnScroll>
-        <p className="details">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil totam,
-          accusamus placeat adipisci impedit architecto voluptatibus officia
-          ipsa perspiciatis magnam nam ratione odit molestias maiores
-          consectetur dolore magni est blanditiis!
-        </p>
-        <Button type="primary">All services</Button>
+        <AnimationOnScroll
+          animateIn="animate__bounceInUp"
+          animateOut="animate__bounceOutDown"
+        >
+          <p className="details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+            totam, accusamus placeat adipisci impedit architecto voluptatibus
+            officia ipsa perspiciatis magnam nam ratione odit molestias maiores
+            consectetur dolore magni est blanditiis!
+          </p>
+          <Button type="primary">All services</Button>
+        </AnimationOnScroll>
       </div>
       <div className="service-cards-sec">
         <div className="service-cards-sec1">
-          <ServiceCard logo={logo0} topic="SEO Optimization">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-            beatae consequatur consectetur adipisicing.
-          </ServiceCard>
-          <ServiceCard logo={logo1} topic="Social Media Marketing">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-            beatae consequatur adipisicing.
-          </ServiceCard>
+          <AnimationOnScroll
+            animateIn="animate__fadeInUpBig"
+            animateOut="animate__fadeOutUpBig"
+          >
+            <ServiceCard logo={logo0} topic="SEO Optimization">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              beatae consequatur consectetur adipisicing.
+            </ServiceCard>
+          </AnimationOnScroll>
+          <AnimationOnScroll
+            animateIn="animate__fadeInUpBig"
+            animateOut="animate__fadeOutUpBig"
+          >
+            <ServiceCard logo={logo1} topic="Social Media Marketing">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              beatae consequatur adipisicing.
+            </ServiceCard>
+          </AnimationOnScroll>
         </div>
         <div className="service-cards-sec2">
-          <ServiceCard logo={logo2} topic="Paid Advertising">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-            beatae consequatur adipisicing.
-          </ServiceCard>
-          <ServiceCard logo={logo3} topic="Email Marketing">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-            beatae consequatur adipisicing.
-          </ServiceCard>
+          <AnimationOnScroll
+            animateIn="animate__fadeInUpBig"
+            animateOut="animate__fadeOutUpBig"
+          >
+            <ServiceCard logo={logo2} topic="Paid Advertising">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              beatae consequatur adipisicing.
+            </ServiceCard>
+          </AnimationOnScroll>
+
+          <AnimationOnScroll
+            animateIn="animate__fadeInUpBig"
+            animateOut="animate__fadeOutUpBig"
+          >
+            <ServiceCard logo={logo3} topic="Email Marketing">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              beatae consequatur adipisicing.
+            </ServiceCard>
+          </AnimationOnScroll>
         </div>
       </div>
     </div>
