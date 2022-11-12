@@ -66,7 +66,7 @@ const Landing = () => {
             <div className="image-containers">
               <AnimationOnScroll
                 animateIn="animate__fadeInUp"
-                animateOut="animate__fadeOutUp"
+                animateOut="animate__fadeOutDown"
               >
                 <img className="bg1" src={bg1} alt="growfy" />
               </AnimationOnScroll>
@@ -84,7 +84,7 @@ const Landing = () => {
             <div className="image-containers">
               <AnimationOnScroll
                 animateIn="animate__fadeInDown"
-                animateOut="animate__fadeOutDown"
+                animateOut="animate__fadeOutUp"
               >
                 <img className="bg4" src={bg4} alt="growfy" />
               </AnimationOnScroll>
