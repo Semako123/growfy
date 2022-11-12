@@ -22,6 +22,7 @@ const Services = () => {
         <AnimationOnScroll
           animateIn="animate__fadeInLeft"
           animateOut="animate__fadeOutLeft"
+          offset={100}
         >
           <h1 className="topic">Services we offer</h1>
         </AnimationOnScroll>
