@@ -7,60 +7,105 @@ import blogImage1 from "../assets/images/blog1.jpg";
 import blogImage2 from "../assets/images/blog2.jpg";
 import blogImage3 from "../assets/images/blog3.jpg";
 import blogImage4 from "../assets/images/blog4.jpg";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Blog = () => {
   return (
     <div className="blog-section">
-      <SectionBadge>BLOG</SectionBadge>
-      <h1 className="topic">Read our articles & news</h1>
-      <div className="blog-para">
-        <p className="details long">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint ex
-          omnibs ipsam officiis a error labore dignissimos accusantium
-          necessitatibus eum velit optio, voluptatibus fuga? Aspernatur, modi.
-          Magni, architecto laborum?
-        </p>
-        <div className="blog-para-button">
-          <Button type="primary">All posts</Button>
+      <AnimationOnScroll
+        animateIn="animate__fadeInLeft"
+        animateOut="animate__fadeOutLeft"
+        offset={30}
+      >
+        <SectionBadge>BLOG</SectionBadge>
+      </AnimationOnScroll>
+      <AnimationOnScroll
+        animateIn="animate__fadeInLeft"
+        animateOut="animate__fadeOutLeft"
+      >
+        <h1 className="topic">Read our articles & news</h1>
+      </AnimationOnScroll>
+      <AnimationOnScroll
+        animateIn="animate__fadeInLeft"
+        animateOut="animate__fadeOutLeft"
+      >
+        <div className="blog-para">
+          <p className="details long">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint ex
+            omnibs ipsam officiis a error labore dignissimos accusantium
+            necessitatibus eum velit optio, voluptatibus fuga? Aspernatur, modi.
+            Magni, architecto laborum?
+          </p>
+          <div className="blog-para-button">
+            <Button type="primary">All posts</Button>
+          </div>
         </div>
-      </div>
+      </AnimationOnScroll>
       <div className="blog-cards-section">
-        <BlogCard
-          image={blogImage1}
-          topic="How to Use Social Proof in Marketing"
-          date="2022-09-04"
+        <AnimationOnScroll
+          animateIn="animate__fadeInLeft"
+          animateOut="animate__fadeOutLeft"
+          delay={100}
+          style={{ width: "22vw" }}
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-          sint voluptas asperiores aliquam cupiditate vero, blanditiis est
-          error.
-        </BlogCard>
-        <BlogCard
-          image={blogImage2}
-          topic="Make a great first impression with these titles"
-          date="2021-12-23"
+          <BlogCard
+            image={blogImage1}
+            topic="How to Use Social Proof in Marketing"
+            date="2022-09-04"
+          >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            sint voluptas asperiores aliquam cupiditate vero, blanditiis est
+            error.
+          </BlogCard>
+        </AnimationOnScroll>
+        <AnimationOnScroll
+          animateIn="animate__fadeInLeft"
+          animateOut="animate__fadeOutLeft"
+          style={{ width: "22vw" }}
+          delay={200}
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-          sint voluptas asperiores aliquam cupiditate vero, blanditiis est
-          error.
-        </BlogCard>
-        <BlogCard
-          image={blogImage3}
-          topic="How to Grab Your Reader’s Attention"
-          date="2020-04-01"
+          <BlogCard
+            image={blogImage2}
+            topic="Make a great first impression with these titles"
+            date="2021-12-23"
+          >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            sint voluptas asperiores aliquam cupiditate vero, blanditiis est
+            error.
+          </BlogCard>
+        </AnimationOnScroll>
+        <AnimationOnScroll
+          animateIn="animate__fadeInLeft"
+          animateOut="animate__fadeOutLeft"
+          style={{ width: "22vw" }}
+          delay={300}
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-          sint voluptas asperiores aliquam cupiditate vero, blanditiis est
-          error.
-        </BlogCard>
-        <BlogCard
-          image={blogImage4}
-          topic="Digital Marketing - All you need to know"
-          date="2022-12-11"
+          <BlogCard
+            image={blogImage3}
+            topic="How to Grab Your Reader’s Attention"
+            date="2020-04-01"
+          >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            sint voluptas asperiores aliquam cupiditate vero, blanditiis est
+            error.
+          </BlogCard>
+        </AnimationOnScroll>
+        <AnimationOnScroll
+          animateIn="animate__fadeInLeft"
+          animateOut="animate__fadeOutLeft"
+          style={{ width: "22vw" }}
+          delay={400}
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-          sint voluptas asperiores aliquam cupiditate vero, blanditiis est
-          error.
-        </BlogCard>
+          <BlogCard
+            image={blogImage4}
+            topic="Digital Marketing - All you need to know"
+            date="2022-12-11"
+          >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            sint voluptas asperiores aliquam cupiditate vero, blanditiis est
+            error.
+          </BlogCard>
+        </AnimationOnScroll>
       </div>
     </div>
   );
