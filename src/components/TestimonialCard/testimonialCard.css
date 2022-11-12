@@ -1,7 +1,6 @@
 .testimonial-card {
   padding: 50px 0px;
   background-color: rgba(129, 129, 139, 0.1);
-  width: 280px;
   border-radius: 30px;
   padding-left: 30px;
 }
@@ -13,17 +12,17 @@ grid-template-columns:100px auto;
 
 .testimonial-card-quote {
   font-family: 'Poppins-Regular', sans-serif;
-  font-size: 25px;
+  font-size: 23px;
   line-height: 35px;
   font-weight: 100;
-  width: 250px;
+  width: 230px;
 }
 
 .testimonial-card-detail {
   font-family: "Poppins-Light", sans-serif;
   font-size: 14px;
   color: #9c9c9c;
-  width: 250px;
+  width: 240px;
 }
 
 .testimonial-card-header-texts{

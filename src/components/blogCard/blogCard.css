@@ -1,7 +1,6 @@
 .blog-card {
   background-color: rgba(129, 129, 139, 0.1);
   border-radius: 30px;
-  width: 300px;
   overflow: hidden;
   padding-bottom: 30px;
 }

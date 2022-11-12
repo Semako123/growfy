@@ -14,4 +14,5 @@
   margin-top: 5vh;
   display: grid;
   grid-template-columns: auto auto auto auto;
+  column-gap: 20px;
 }

@@ -6,6 +6,7 @@ import BlogCard from "../blogCard/BlogCard";
 import blogImage1 from "../assets/images/blog1.jpg";
 import blogImage2 from "../assets/images/blog2.jpg";
 import blogImage3 from "../assets/images/blog3.jpg";
+import blogImage4 from "../assets/images/blog4.jpg";
 
 const Blog = () => {
   return (
@@ -52,9 +53,9 @@ const Blog = () => {
           error.
         </BlogCard>
         <BlogCard
-          image={blogImage1}
-          topic="How to Use Social Proof in Marketing"
-          date="2022-09-04"
+          image={blogImage4}
+          topic="Digital Marketing - All you need to know"
+          date="2022-12-11"
         >
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
           sint voluptas asperiores aliquam cupiditate vero, blanditiis est
