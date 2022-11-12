@@ -28,8 +28,8 @@ const Landing = () => {
           </div>
           <div className="landing-content">
             <AnimationOnScroll
-              animateIn="animate__rubberBand"
-              animateOut="animate__fadeOut"
+              animateIn="animate__fadeInLeft"
+              animateOut="animate__fadeOutLeft"
             >
               <h1 className="topic">
                 Marketing solution that grow your business.
@@ -101,7 +101,11 @@ const Landing = () => {
           <p className="b-text">TRUSTED BY STARTUPS AND LARGE ENTERPRISES</p>
         </AnimationOnScroll>
       </div>
-      <AnimationOnScroll animateIn="animate__backInDown" animateOut="animate__backOutUp" offset={50}>
+      <AnimationOnScroll
+        animateIn="animate__backInDown"
+        animateOut="animate__backOutUp"
+        offset={50}
+      >
         <div className="b-logos">
           <div className="s-blur"></div>
           <div className="e-blur"></div>

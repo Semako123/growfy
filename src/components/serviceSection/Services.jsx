@@ -7,13 +7,16 @@ import logo2 from "../assets/images/cLogo2.png";
 import logo3 from "../assets/images/cLogo3.png";
 import SectionBadge from "../sectionBadge/SectionBadge";
 import Button from "../button/button";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Services = () => {
   return (
     <div className="service-section">
       <div className="service-texts-sec">
-        <SectionBadge>SERVICES</SectionBadge>
-        <h1 className="topic">Services we offer</h1>
+        <AnimationOnScroll>
+          <SectionBadge>SERVICES</SectionBadge>
+          <h1 className="topic">Services we offer</h1>
+        </AnimationOnScroll>
         <p className="details">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil totam,
           accusamus placeat adipisci impedit architecto voluptatibus officia
