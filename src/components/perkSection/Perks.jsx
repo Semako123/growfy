@@ -34,12 +34,14 @@ const Perks = () => {
         <AnimationOnScroll
           animateIn="animate__fadeInRight"
           animateOut="animate__fadeOutRight"
+          offset={50}
         >
           <SectionBadge>WHY CHOOSE US</SectionBadge>
         </AnimationOnScroll>
         <AnimationOnScroll
           animateIn="animate__fadeInRight"
           animateOut="animate__fadeOutRight"
+          offset={60}
         >
           <h1 className="topic">
             We help great brands scale with content marketing

@@ -16,6 +16,7 @@ const Services = () => {
         <AnimationOnScroll
           animateIn="animate__fadeInLeft"
           animateOut="animate__fadeOutLeft"
+          offset={50}
         >
           <SectionBadge>SERVICES</SectionBadge>
         </AnimationOnScroll>
