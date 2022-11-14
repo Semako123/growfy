@@ -94,7 +94,7 @@ const Landing = () => {
       </div>
       <div>
         <AnimationOnScroll
-          offset={80}
+          offset={60}
           animateIn="animate__lightSpeedInLeft"
           animateOut="animate__lightSpeedOutRight"
         >

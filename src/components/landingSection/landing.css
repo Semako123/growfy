@@ -6,6 +6,7 @@
 .landing-texts {
   align-self: center;
   position: relative;
+  z-index: -1;
 }
 
 .landing-images {
@@ -24,7 +25,8 @@
 }
 
 .landing-content {
-  z-index: 3;
+  z-index: -1;
+  position: relative;
   padding-left: 32px;
 }
 

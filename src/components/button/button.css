@@ -1,14 +1,13 @@
 .button {
-  width: 120px;
-  height: 38px;
+  width: 9.5vw;
+  height: 2.7vw;
   border-radius: 50px;
   display: grid;
   place-items: center;
-  font-size: 11px;
+  font-size: 0.8vw;
   color: white;
-  line-height: 22.4px;
-  letter-spacing: 2px;
-  font-family: 'Poppins-Regular', sans-serif;
+  letter-spacing: 0.2vw;
+  font-family: "Poppins-Regular", sans-serif;
   transition: all 0.2s;
   cursor: pointer;
 }
@@ -17,7 +16,7 @@
   background-color: #3d96f4;
 }
 
-.primary:hover{
+.primary:hover {
   background-color: #2d6fb5;
 }
 
@@ -25,6 +24,28 @@
   background-color: rgba(129, 129, 139, 0.2);
 }
 
-.secondary:hover{
+.secondary:hover {
   background-color: rgba(129, 129, 139, 0.135);
+}
+
+@media screen and (max-width: 900px) {
+  .button {
+    width: 12vw;
+    height: 4vw;
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 700px) {
+  .button {
+    width: 15vw;
+    height: 5vw;
+    font-size: 1.2vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .button {
+    width: 15.5vw;
+    height: 5.5vw;
+    font-size: 1.7vw;
+  }
 }

@@ -1,12 +1,35 @@
 .navbar {
-  margin-top: 15px;
+  margin-top: 3%;
   height: 40px;
   display: flex;
   align-items: center;
 }
 .logo {
-  width: 100px;
+  width: 10%;
 }
+.toggle {
+  position: relative;
+  margin-left: auto;
+  display: none;
+  margin-right: 20px;
+}
+
+.toggle-images {
+  width: 5vw;
+  position: absolute;
+  top: -10px;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.transparent {
+  opacity: 0 !important;
+}
+
+.visible {
+  opacity: 1 !important;
+}
+
 .navCon {
   display: flex;
   align-items: center;
@@ -15,25 +38,80 @@
 }
 .navCon li {
   font-family: "Poppins-Light", sans-serif;
-  line-height: 25.6px;
-  font-size: 13px;
+  font-size: 1vw;
   cursor: pointer;
   text-decoration: none;
-  margin: 0px 10px;
+  margin: 0px 0.6vw;
   display: inline;
-  padding: 5px 10px;
+  padding: 0.8vw 01.2vw;
   transition: all 0.4s;
 }
 
 .navCon li:hover {
   background-color: rgba(129, 129, 139, 0.135);
-  border-radius: 20px;
+  border-radius: 2vw;
 }
 
+.navCon-mobile li:hover {
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.301);
+  margin: 2.7px 0px;
+}
+
+.navCon-mobile .button-div:hover {
+  padding: 2.7px 0px;
+}
+
+.navCon-mobile .button-div {
+  transition: all 0.4s;
+}
+
+.navCon-mobile li {
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 1.7vw;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0px 0.6vw;
+  display: block;
+  padding: 0.8vw 01.2vw;
+  transition: all 0.4s;
+}
+
+.navCon-mobile {
+  padding: 3vw 17vw 3vw 3vw;
+  border-radius: 10px;
+  top: 20px;
+  background-color: rgb(60, 61, 63);
+  position: absolute;
+  right: 10px;
+}
 .cart-badge {
+  font-size: 0.9vw;
   border-radius: 50%;
-  margin-left: 3px;
-  padding: 0px 8px;
+  margin-left: 0.3vw;
+  padding: 0.3vw 0.7vw;
   background-color: rgba(129, 129, 139, 0.3);
   display: inline-block;
+}
+
+@media screen and (max-width: 880px) {
+  .navCon li {
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navCon {
+    display: none;
+  }
+  .toggle {
+    display: inline-block;
+  }
+  .logo {
+    width: 15vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    width: 18vw;
+  }
 }
