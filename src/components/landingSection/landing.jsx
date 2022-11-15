@@ -22,6 +22,7 @@ const Landing = () => {
             <AnimationOnScroll
               animateIn="animate__fadeInDown"
               animateOut="animate__fadeOutDown"
+              offset={0}
             >
               <Deco />
             </AnimationOnScroll>
@@ -30,6 +31,7 @@ const Landing = () => {
             <AnimationOnScroll
               animateIn="animate__fadeInLeft"
               animateOut="animate__fadeOutLeft"
+              offset={0}
             >
               <h1 className="topic">
                 Marketing solution that grow your business.

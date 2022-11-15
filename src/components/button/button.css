@@ -30,21 +30,21 @@
 
 @media screen and (max-width: 900px) {
   .button {
-    width: 12vw;
+    width: 13vw;
     height: 4vw;
-    font-size: 1vw;
+    font-size: 1.1vw;
   }
 }
 @media screen and (max-width: 700px) {
   .button {
-    width: 15vw;
-    height: 5vw;
+    width: 13vw;
+    height: 4vw;
     font-size: 1.2vw;
   }
 }
 @media screen and (max-width: 500px) {
   .button {
-    width: 15.5vw;
+    width: 16.5vw;
     height: 5.5vw;
     font-size: 1.7vw;
   }

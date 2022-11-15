@@ -9,9 +9,17 @@
 }
 
 .circle {
-  height: 7px;
-  margin: 1.7px;
-  width: 7px;
+  height: 0.62vw;
+  margin: 0.1vw;
+  width: 0.62vw;
   border-radius: 50%;
   background-color: rgba(129, 129, 139, 0.2);
+}
+
+@media screen and (max-width:500px) {
+  .circle{
+    margin: 1.5px;
+  width: 4px;
+  height: 4px;
+  }
 }

@@ -67,7 +67,7 @@
 
 .navCon-mobile li {
   font-family: "Poppins-Light", sans-serif;
-  font-size: 1.7vw;
+  font-size: 3vw;
   cursor: pointer;
   text-decoration: none;
   margin: 0px 0.6vw;
@@ -77,7 +77,7 @@
 }
 
 .navCon-mobile {
-  padding: 3vw 17vw 3vw 3vw;
+  padding: 5vw 20vw 5vw 5vw;
   border-radius: 10px;
   top: 20px;
   background-color: rgb(60, 61, 63);
@@ -95,7 +95,13 @@
 
 @media screen and (max-width: 880px) {
   .navCon li {
-    font-size: 1vw;
+    font-size: 1.8vw;
+  }
+  .cart-badge{
+    font-size: 2vw;
+  }
+  .logo{
+    width: 20%;
   }
 }
 @media screen and (max-width: 750px) {
@@ -106,7 +112,7 @@
     display: inline-block;
   }
   .logo {
-    width: 15vw;
+    width: 20vw;
   }
 }
 
