@@ -34,3 +34,17 @@
   font-size: 13px;
   color: #9c9c9c;
 }
+
+@media screen and (max-width: 500px) {
+  .contact-section {
+    margin: -60px 0px;
+    grid-template-columns: auto;
+    padding: 30px 0px;
+  }
+  .contact-topic {
+    font-size: 20px;
+  }
+  .contact-texts {
+    width: 80vw;
+  }
+}
