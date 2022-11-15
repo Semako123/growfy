@@ -23,3 +23,18 @@
     margin-left: 3vw;
     border-radius: 0px 340px 275px 275px;
 }
+
+@media screen and (max-width:500px) {
+    .ratings-section{
+        grid-template-columns: auto;
+        place-items: center;
+        margin-top: 30px;
+    }
+    .rating-image-div{
+        display: none;
+    }
+    .rating-card-grid{
+        row-gap: 10px;
+        margin-bottom: 10px;
+    }
+}
