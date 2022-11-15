@@ -44,7 +44,7 @@ const Services = () => {
         <div className="service-cards-sec1">
           <AnimationOnScroll
             animateIn="animate__fadeInUpBig"
-            animateOut="animate__fadeOutUpBig"
+            animateOut="animate__fadeOutLeft"
           >
             <ServiceCard logo={logo0} topic="SEO Optimization">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
@@ -53,7 +53,7 @@ const Services = () => {
           </AnimationOnScroll>
           <AnimationOnScroll
             animateIn="animate__fadeInUpBig"
-            animateOut="animate__fadeOutUpBig"
+            animateOut="animate__fadeOutRight"
           >
             <ServiceCard logo={logo1} topic="Social Media Marketing">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
@@ -64,7 +64,7 @@ const Services = () => {
         <div className="service-cards-sec2">
           <AnimationOnScroll
             animateIn="animate__fadeInUpBig"
-            animateOut="animate__fadeOutUpBig"
+            animateOut="animate__fadeOutLeft"
           >
             <ServiceCard logo={logo2} topic="Paid Advertising">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
@@ -74,7 +74,7 @@ const Services = () => {
 
           <AnimationOnScroll
             animateIn="animate__fadeInUpBig"
-            animateOut="animate__fadeOutUpBig"
+            animateOut="animate__fadeOutRight"
           >
             <ServiceCard logo={logo3} topic="Email Marketing">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque

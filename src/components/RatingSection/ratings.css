@@ -34,7 +34,6 @@
         display: none;
     }
     .rating-card-grid{
-        row-gap: 10px;
-        margin-bottom: 10px;
+        display: block;
     }
 }

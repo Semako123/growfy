@@ -18,13 +18,13 @@
   width: 50vw;
 }
 
-@media screen and (max-width:500px) {
-  .topic{
+@media screen and (max-width: 500px) {
+  .topic {
     font-size: 30px;
     width: 80vw;
     line-height: 30px;
   }
-  .details{
+  .details {
     font-size: 10px;
     width: 70vw;
     line-height: 15px;

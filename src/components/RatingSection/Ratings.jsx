@@ -11,6 +11,7 @@ const Ratings = () => {
         <AnimationOnScroll
           animateIn="animate__bounceIn"
           animateOut="animate__bounceOut"
+          style={{ marginBottom: "10px" }}
         >
           <RatingsCard heading="1.2M+">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
@@ -21,6 +22,7 @@ const Ratings = () => {
         <AnimationOnScroll
           animateIn="animate__bounceIn"
           animateOut="animate__bounceOut"
+          style={{ marginBottom: "10px" }}
         >
           <RatingsCard heading="3.4B">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
@@ -33,6 +35,7 @@ const Ratings = () => {
         <AnimationOnScroll
           animateIn="animate__bounceIn"
           animateOut="animate__bounceOut"
+          style={{ marginBottom: "10px" }}
         >
           <RatingsCard heading="98%">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
@@ -43,6 +46,7 @@ const Ratings = () => {
         <AnimationOnScroll
           animateIn="animate__bounceIn"
           animateOut="animate__bounceOut"
+          style={{ marginBottom: "10px" }}
         >
           <RatingsCard heading="10+">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
