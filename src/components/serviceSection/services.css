@@ -11,14 +11,29 @@
 
 .service-cards-sec1 {
   padding-top: 20%;
-}
-
-.service-cards-sec1 {
   padding-bottom: 20%;
+
 }
 
 .service-texts-sec {
   display: flex;
   flex-direction: column;
   margin-top: 23%;
+}
+
+@media screen and (max-width:500px) {
+  .service-section{
+    grid-template-columns: auto;
+    margin-top: 30px;
+  }  
+  .service-texts-sec{
+    margin-top: 0px;
+  }
+  .service-cards-sec{
+    grid-template-columns: auto;
+    place-items: center;
+  }
+  .service-cards-sec1, .service-cards-sec2{
+    padding: 0px;
+  }
 }
