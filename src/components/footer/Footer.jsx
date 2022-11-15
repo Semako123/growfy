@@ -78,6 +78,7 @@ const Footer = () => {
       <AnimationOnScroll
         animateIn="animate__fadeInUp"
         animateOut="animate__fadeOutDown"
+        offset={0}
       >
         <div className="footer-remarks">
           <p className="footer-sub-topic">

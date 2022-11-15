@@ -52,3 +52,36 @@
   transform: translateY(5px);
   width: 71px;
 }
+
+@media screen and (max-width: 500px) {
+  .footer-section {
+    grid-template-columns: 45vw auto auto;
+    column-gap: 5px;
+    padding-bottom: 20px;
+  }
+  .footer-topic {
+    font-size: 10px;
+    font-weight: 100;
+  }
+  .footer-sub-topic {
+    font-size: 7px;
+  }
+  .newsletter-form {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .newsletter-field {
+    width: 40vw;
+    margin-right: 5px;
+    font-size: 10px;
+    padding-left: 10px;
+  }
+  .footer-remarks {
+    margin-bottom: 20px;
+    padding: 2px;
+  }
+  .webflow{
+    width: 25px;
+    padding-bottom: 5px;
+  }
+}

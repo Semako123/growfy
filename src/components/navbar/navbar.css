@@ -52,7 +52,7 @@
   border-radius: 2vw;
 }
 
-.navCon-mobile li:hover {
+.navCon-mobile li:hover{
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.301);
   margin: 2.7px 0px;
 }
