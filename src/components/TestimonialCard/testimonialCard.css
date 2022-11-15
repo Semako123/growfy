@@ -57,3 +57,9 @@ grid-template-columns:100px auto;
     height: 15px;
     margin-left: 2px;
 }
+@media screen and (max-width:500px) {
+  .testimonial-card{
+    width:80vw;
+  }
+  
+}

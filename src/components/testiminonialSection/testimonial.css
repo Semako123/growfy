@@ -14,9 +14,21 @@
   margin-right: 80px;
 }
 
-.testimonial-cards-section{
+.testimonial-cards-section {
   margin-top: 50px;
   display: grid;
   grid-template-columns: auto auto auto auto;
   column-gap: 5vw;
+}
+
+@media screen and (max-width: 500px) {
+  .testimonial-cards-section {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .testimonial-cards-section::-webkit-scrollbar {
+    display: none;
+  }
 }
