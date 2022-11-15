@@ -16,3 +16,18 @@
   grid-template-columns: auto auto auto auto;
   column-gap: 20px;
 }
+
+@media screen and (max-width:500px) {
+  .blog-cards-section{
+    display: grid;
+    column-gap: 20px;
+    place-items: center;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .blog-cards-section::-webkit-scrollbar{
+    display: none;
+  }
+}

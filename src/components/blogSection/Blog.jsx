@@ -46,7 +46,6 @@ const Blog = () => {
           animateIn="animate__fadeInLeft"
           animateOut="animate__fadeOutLeft"
           delay={100}
-          style={{ width: "22vw" }}
         >
           <BlogCard
             image={blogImage1}
@@ -61,7 +60,6 @@ const Blog = () => {
         <AnimationOnScroll
           animateIn="animate__fadeInLeft"
           animateOut="animate__fadeOutLeft"
-          style={{ width: "22vw" }}
           delay={200}
         >
           <BlogCard
@@ -77,7 +75,6 @@ const Blog = () => {
         <AnimationOnScroll
           animateIn="animate__fadeInLeft"
           animateOut="animate__fadeOutLeft"
-          style={{ width: "22vw" }}
           delay={300}
         >
           <BlogCard
@@ -93,7 +90,6 @@ const Blog = () => {
         <AnimationOnScroll
           animateIn="animate__fadeInLeft"
           animateOut="animate__fadeOutLeft"
-          style={{ width: "22vw" }}
           delay={400}
         >
           <BlogCard
