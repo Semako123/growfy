@@ -49,3 +49,13 @@
     align-self: flex-end;
     border-radius: 200px 200px 200px 0px;
 }
+
+@media screen and (max-width:500px) {
+  .perk-section{
+    grid-template-columns: auto;
+    margin-top: 30px;
+  }
+  .perk-section-image{
+    display: none;
+  }
+}
